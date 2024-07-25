@@ -12,7 +12,7 @@ st.title('Estimasi Harga Mobil Bekas Toyota')
 list_jenis = ['Agya', 'Calya', 'Avanza Veloz', 'Raize', 'Rush', 'Innova', 'Fortuner', 'Corolla Cross']
 jenis = st.selectbox('Input Model Mobil', list_jenis)
 
-year = st.number_input('Input Tahun Mobil')
+year = st.text_input('Input Tahun Mobil')
 
 list_transmisi = ['Matic', 'Manual']
 transmisi = st.selectbox('Input Jenis Transmisi', list_transmisi)
@@ -22,7 +22,7 @@ km = st.number_input('Input KM Mobil')
 list_bahan_bakar = ['Bensin', 'Diesel', 'Hybrid']
 bahan_bakar = st.selectbox('Input Bahan Bakar Mobil', list_bahan_bakar)
 
-pajak = st.number_input('Input Pajak Mobil')
+pajak = st.text_input('Input Pajak Mobil')
 mpg = st.number_input('Input Konsumsi BBM Mobil')
 cc = st.number_input('Input Engine Size')
 
