@@ -3,6 +3,7 @@ import streamlit as st
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 model = pickle.load(open('model_knn.pkl', 'rb'))
+print(model)
 le = LabelEncoder()  # Inisialisasi LabelEncoder sekali
 scaler = StandardScaler()  # Inisialisasi StandardScaler sekali
 
