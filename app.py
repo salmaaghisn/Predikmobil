@@ -17,7 +17,7 @@ year = st.text_input('Input Tahun Mobil')
 list_transmisi = ['Matic', 'Manual']
 transmisi = st.selectbox('Input Jenis Transmisi', list_transmisi)
 
-km = st.number_input('Input KM Mobil')
+km = st.text_input('Input KM Mobil')
 
 list_bahan_bakar = ['Bensin', 'Diesel', 'Hybrid']
 bahan_bakar = st.selectbox('Input Bahan Bakar Mobil', list_bahan_bakar)
