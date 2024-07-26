@@ -8,7 +8,7 @@ le = LabelEncoder()  # Inisialisasi LabelEncoder sekali
 scaler = StandardScaler()  # Inisialisasi StandardScaler sekali
 
 st.title('Estimasi Harga Mobil Bekas Toyota')
-
+st.image("./img/image.png")
 list_jenis = ['Agya', 'Calya', 'Avanza Veloz', 'Raize', 'Rush', 'Innova', 'Fortuner', 'Corolla Cross']
 jenis = st.selectbox('Input Model Mobil', list_jenis)
 
